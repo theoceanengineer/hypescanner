@@ -1,72 +1,202 @@
-# hypescanner
-# **HypeScan - ⚡ Hyper-Fast Network Intelligence Scanner**
+# **HypeScanner - ⚡ Hyper-Fast Network Intelligence Scanner**
 
 <div align="center">
 
-![HypeScan Banner](https://img.shields.io/badge/HypeScan-Network_Scanner-FF6B6B?style=for-the-badge&logo=terminal&logoColor=white)
+![HypeScanner Banner](https://img.shields.io/badge/HypeScanner-Network_Scanner-FF6B6B?style=for-the-badge&logo=terminal&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![GitHub Release](https://img.shields.io/github/v/release/theoceanengineer/hypescanner?style=for-the-badge)
 
 **Discover, Scan, and Analyze Networks with Stunning Visual Feedback**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/hypescan?style=social)](https://github.com/yourusername/hypescan)
-[![Downloads](https://img.shields.io/npm/dt/hypescan?color=blue&style=flat-square)](https://npmjs.com/package/hypescan)
+[![GitHub stars](https://img.shields.io/github/stars/theoceanengineer/hypescanner?style=social)](https://github.com/theoceanengineer/hypescanner/stargazers)
+[![Downloads](https://img.shields.io/npm/dt/hypescanner?color=blue&style=flat-square)](https://npmjs.com/package/hypescanner)
+[![GitHub issues](https://img.shields.io/github/issues/theoceanengineer/hypescanner?style=flat-square)](https://github.com/theoceanengineer/hypescanner/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/theoceanengineer/hypescanner?style=flat-square)](https://github.com/theoceanengineer/hypescanner/commits/main)
 
 </div>
 
 ---
 
-## 🎯 **What is HypeScan?**
+## 🌊 **Welcome to HypeScanner by @theoceanengineer**
 
-HypeScan is a **next-generation network scanner** built with Node.js that combines blazing-fast performance with beautiful terminal visuals. Unlike traditional scanners, HypeScan provides **real-time visual feedback** with progress bars, emojis, and color-coded results that make network scanning both informative and enjoyable.
+```javascript
+console.log(chalk.hex('#FF6B6B')('      ___           ___           ___           ___           ___           ___           ___           ___     '));
+console.log(chalk.hex('#FF9F43')('     /\\__\\         |\\__\\         /\\  \\         /\\  \\         /\\  \\         /\\  \\         /\\  \\         /\\__\\    '));
+console.log(chalk.hex('#FECA57')('    /:/  /         |:|  |       /::\\  \\       /::\\  \\       /::\\  \\       /::\\  \\       /::\\  \\       /::|  |   '));
+console.log(chalk.hex('#FF9FF3')('   /:/__/          |:|  |      /:/\\:\\  \\     /:/\\:\\  \\     /:/\\ \\  \\     /:/\\:\\  \\     /:/\\:\\  \\     /:|:|  |   '));
+console.log(chalk.hex('#54A0FF')('  /::\\  \\ ___      |:|__|__   /::\\~\\:\\  \\   /::\\~\\:\\  \\   _\\:\\~\\ \\  \\   /:/  \\:\\  \\   /::\\~\\:\\  \\   /:/|:|  |__ '));
+console.log(chalk.hex('#5F27CD')(' /:/\\:\\  /\\__\\     /::::\\__\\ /:/\\:\\ \\:\\__\\ /:/\\:\\ \\:\\__\\ /\\ \\:\\ \\ \\__\\ /:/__/ \\:\\__\\ /:/\\:\\ \\:\\__\\ /:/ |:| /\\__\\'));
+console.log(chalk.hex('#00D2D3')(' \\/__\\:\\/:/  /    /:/~~/~    \\/__\\:\\/:/  / \\:\\~\\:\\ \\/__/ \\:\\ \\:\\ \\/__/ \\:\\  \\  \\/__/ \\/__\\:\\/:/  / \\/__|:|/:/  /'));
+console.log(chalk.hex('#1DD1A1')('      \\::/  /    /:/  /           \\::/  /   \\:\\ \\:\\__\\    \\:\\ \\:\\__\\    \\:\\  \\            \\::/  /      |:/:/  / '));
+console.log(chalk.hex('#96CEB4')('      /:/  /     \\/__/             \\/__/     \\:\\ \\/__/     \\:\\/:/  /     \\:\\  \\           /:/  /       |::/  /  '));
+console.log(chalk.hex('#4ECDC4')('     /:/  /                                   \\:\\__\\        \\::/  /       \\:\\__\\         /:/  /        /:/  /   '));
+console.log(chalk.hex('#576574')('     \\/__/                                     \\/__/         \\/__/         \\/__/         \\/__/         \\/__/    '));
+```
 
-Perfect for **security researchers**, **network administrators**, **developers**, and **CTF enthusiasts** who need powerful scanning capabilities with an intuitive interface.
-
----
-
-## ✨ **Features That Pop**
-
-### 🚀 **Hyper-Fast Scanning**
-- **Concurrent scanning** up to 254 threads
-- **TCP-based ping** (no ICMP permissions needed)
-- **Smart port detection** with multiple fallback methods
-- **Real-time progress** with animated progress bars
-
-### 🎨 **Visual Experience**
-- **Color-coded results** with gradient effects
-- **Live feedback**: ● = online, . = offline, ✨ = ports found
-- **Beautiful ASCII art** banners and tables
-- **Emoji-rich output** for quick visual recognition
-
-### 🔍 **Intelligent Detection**
-- **Auto-network detection** from active interfaces
-- **Port service identification** with emoji indicators
-- **Device profiling** and service categorization
-- **Cafe/coffeeshop mode** for developer detection
-
-### 📊 **Comprehensive Reporting**
-- **Interactive tables** with CLI-table
-- **Scan summaries** with statistics
-- **JSON export** for further analysis
-- **Multi-network scanning** support
+**HypeScanner** is a powerful, visually stunning network scanner built with Node.js that transforms the boring task of network scanning into an engaging, informative experience. Created by **@theoceanengineer**, this tool combines professional-grade scanning capabilities with beautiful terminal visuals.
 
 ---
 
-## 🖥️ **Screenshots**
+## 🚀 **Quick Start**
 
-### **Main Interface**
+### **Installation**
+
+```bash
+# Clone the repository
+git clone https://github.com/theoceanengineer/hypescanner.git
+cd hypescanner
+
+# Install dependencies
+npm install
+
+# Make it executable
+chmod +x scanner.js
+
+# Run your first scan
+node scanner.js scan --network 192.168.1.0/24
+```
+
+### **One-Liner Installation**
+```bash
+# Direct run without cloning
+npx hypescanner@latest scan --network 192.168.1.0/24
+
+# Or install globally
+npm install -g hypescanner
+hypescanner --help
+```
+
+---
+
+## ✨ **Why Choose HypeScanner?**
+
+| Feature | HypeScanner 🔥 | Traditional Scanners 😴 |
+|---------|---------------|------------------------|
+| **Visual Interface** | ✅ Live progress, emojis, colors | ❌ Plain text output |
+| **Ease of Use** | ✅ Auto-detection, simple commands | ❌ Complex configuration |
+| **Performance** | ✅ 254 concurrent threads | ⚠️ Limited concurrency |
+| **Portability** | ✅ Pure Node.js, no root needed | ❌ Often requires root |
+| **Developer Focus** | ✅ Cafe mode, Flask detection | ❌ Generic scanning only |
+| **Reporting** | ✅ Beautiful tables + JSON export | ⚠️ Basic text output |
+
+---
+
+## 📋 **Command Reference**
+
+### **Basic Scanning**
+```bash
+# Scan with visual feedback
+hypescanner scan --network 192.168.68.0/24 --ports
+
+# Auto-detect network and scan
+hypescanner scan
+
+# High-speed scanning (100 threads)
+hypescanner scan -c 100 -t 1000
+```
+
+### **Advanced Features**
+```bash
+# Cafe/Co-working space analysis
+hypescanner cafe
+
+# Hunt for Flask development servers
+hypescanner find-flask
+
+# Find all developer machines
+hypescanner find-devs
+
+# Deep scan specific device
+hypescanner deepscan 192.168.68.109
+```
+
+### **Utility Commands**
+```bash
+# Show network interfaces
+hypescanner interfaces
+
+# Port scan specific IP
+hypescanner portscan 192.168.1.1 80,443,8080
+
+# Scan port range
+hypescanner portscan 192.168.1.1 20-30
+```
+
+---
+
+## 🏪 **Cafe Mode - Perfect for Developers**
+
+HypeScanner's **Cafe Mode** is specially designed for:
+- **Developer detection** in co-working spaces
+- **Flask/Django** server identification
+- **Service discovery** (MySQL, Redis, MongoDB)
+- **Network security** assessment
+
+**Example Output:**
 ```
 ╔══════════════════════════════════════╗
-║                ▄▄▄▄▄▄▄▄▄▄▄▄▄         ║
-║                ██▀▀▀▀▀▀▀▀██         ║
-║                ██  HypeScan ██       ║
-║                ██▄▄▄▄▄▄▄▄▄▄██       ║
-║                ▀▀▀▀▀▀▀▀▀▀▀▀▀         ║
-║      ⚡ Hyper-Fast Network Scanner ⚡ ║
+║      ☕ CAFE NETWORK SCANNER         ║
 ╚══════════════════════════════════════╝
+
+📍 Detected network: 192.168.68.0/24
+🔍 Scanning for active devices...
+
+🎯 Found 8 active hosts
+
+🔬 Profiling detected devices...
+
+  1. 192.168.68.105 🔸 Development Machine
+     👨‍💻 Python Developer
+     🛠️  Web:5000, Web:80
+
+  2. 192.168.68.110 ⚠️  Database Server
+     🛠️  MySQL:3306
+
+📊 Statistics:
+   Total devices: 8
+   Developer machines: 1
+   Database servers: 1
+
+👨‍💻 Developer Activity Detected:
+   🐍 Python Developer: 1 device(s)
+
+🎯 Potential Flask Development:
+   • 192.168.68.105
 ```
 
-### **Live Scanning**
+---
+
+## 🛠️ **Technical Specifications**
+
+### **Architecture**
+- **Pure JavaScript** - No native dependencies
+- **TCP Socket-based** - Works without ICMP permissions
+- **Async Parallel Processing** - Maximizes efficiency
+- **Modular Design** - Easy to extend
+
+### **Performance Metrics**
+- **10-15 seconds** for full /24 network scan
+- **Up to 254 concurrent** connections
+- **Smart timeout handling** (configurable)
+- **Memory-efficient** batch processing
+
+### **Dependencies**
+```json
+{
+  "chalk": "^4.1.2",      // Terminal colors
+  "cli-table": "^0.3.11", // Beautiful tables
+  "ip": "^2.0.0",        // IP manipulation
+  "async": "^3.2.4",     // Parallel processing
+  "commander": "^9.4.1"  // CLI parsing
+}
+```
+
+---
+
+## 📊 **Sample Output**
+
+### **Live Scanning Progress**
 ```
 🔮 Scanning 254 IPs with 50 threads...
 💫 Live feedback: ● = online, . = offline, ✨ = ports found
@@ -84,197 +214,133 @@ Perfect for **security researchers**, **network administrators**, **developers**
 │ 2  │ 192.168.1.105   │ 🟢 ONLINE  │ 🐍 5000 🌍 80                          │
 │ 3  │ 192.168.1.110   │ 🟢 ONLINE  │ 📁 21 🔐 22                            │
 └────┴─────────────────┴────────────┴────────────────────────────────────────┘
+
+📊 SCAN SUMMARY:
+   Total IPs scanned: 254
+   Active hosts: 19
+   Inactive hosts: 235
+   Success rate: 7.5%
 ```
 
 ---
 
-## 🚀 **Quick Start**
-
-### **Installation**
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/hypescan.git
-cd hypescan
-
-# Install dependencies
-npm install
-
-# Make it executable
-chmod +x scanner.js
-```
-
-### **Basic Usage**
-
-```bash
-# Show help
-node scanner.js --help
-
-# Scan a network with visual feedback
-node scanner.js scan --network 192.168.1.0/24 --ports
-
-# Scan cafe/coffeeshop network
-node scanner.js cafe
-
-# Find Flask development servers
-node scanner.js find-flask
-
-# Deep scan specific IP
-node scanner.js deepscan 192.168.1.105
-```
-
-### **As Global Command**
-```bash
-# Install globally
-npm install -g .
-
-# Now use from anywhere
-hypescan scan --network 10.0.0.0/24
-hypescan interfaces
-```
-
----
-
-## 📖 **Command Reference**
-
-| Command | Description | Example |
-|---------|-------------|---------|
-| `scan` | Scan a network with options | `hypescan scan -n 192.168.1.0/24 -p` |
-| `cafe` | Cafe mode: detect developers | `hypescan cafe` |
-| `find-flask` | Hunt for Flask servers | `hypescan find-flask` |
-| `find-devs` | Find developer machines | `hypescan find-devs` |
-| `deepscan` | Deep scan specific IP | `hypescan deepscan 192.168.1.105` |
-| `interfaces` | Show network interfaces | `hypescan interfaces` |
-| `portscan` | Scan ports on IP | `hypescan portscan 192.168.1.1 80,443` |
-
-### **Scan Options**
-- `-n, --network` : Network CIDR (default: auto-detect)
-- `-c, --concurrency` : Threads 1-254 (default: 50)
-- `-t, --timeout` : Timeout per IP in ms (default: 1500)
-- `-p, --ports` : Enable port scanning
-
----
-
-## 🏪 **Cafe/Co-Working Mode**
-
-HypeScan's special **Cafe Mode** is perfect for:
-- **Finding developers** in co-working spaces
-- **Detecting Flask/Django** development servers
-- **Identifying database** and web servers
-- **Network security** assessment
-
-```bash
-# Enter cafe mode
-hypescan cafe
-
-# Output includes:
-# • Device types (Developer, Database, Web Server)
-# • Developer stacks (Python, JavaScript, Java)
-# • Service detection
-# • Security risk assessment
-```
-
----
-
-## 🛠️ **Technical Details**
-
-### **Architecture**
-- **Pure Node.js** - No native dependencies required
-- **TCP Socket-based** - Works without ICMP permissions
-- **Async Parallel Processing** - Maximizes scanning speed
-- **Modular Design** - Easy to extend and customize
-
-### **Dependencies**
-- `chalk` - Terminal styling and colors
-- `cli-table` - Beautiful table outputs
-- `ip` - IP address manipulation
-- `async` - Parallel processing control
-- `commander` - CLI argument parsing
-
-### **Performance**
-- **~10 seconds** for full /24 network scan
-- **Concurrent scanning** minimizes wait time
-- **Smart timeout** handling for efficiency
-- **Memory efficient** batch processing
-
----
-
-## 🔧 **Development**
+## 🔧 **Development & Contribution**
 
 ### **Project Structure**
 ```
-hypescan/
+hypescanner/
 ├── scanner.js          # Main scanner implementation
 ├── package.json        # Dependencies and scripts
-├── README.md           # This file
-└── examples/           # Example scripts
+├── README.md           # Documentation
+├── LICENSE             # MIT License
+└── examples/           # Usage examples
 ```
 
-### **Extending HypeScan**
-```javascript
-// Create custom scanner
-const { HypeScan } = require('./scanner.js');
-
-class MyScanner extends HypeScan {
-    async customScan(ip) {
-        // Add your custom logic here
-        const result = await this.smartPing(ip);
-        return this.enhanceResult(result);
-    }
-}
-```
-
----
-
-## ⚖️ **Ethical Use & Disclaimer**
-
-### **Important Guidelines**
+### **Building from Source**
 ```bash
-⚖️  ETHICAL GUIDELINES FOR HYPERSCAN:
+# Clone and setup
+git clone https://github.com/theoceanengineer/hypescanner.git
+cd hypescanner
 
-1. ⚠️  ONLY SCAN NETWORKS YOU OWN OR HAVE PERMISSION
-2. 🔒 Do not attempt to access devices without authorization
-3. 📝 This tool is for NETWORK DISCOVERY only
-4. 🚫 Do not use for malicious purposes
-5. 📚 Use for learning and security research only
+# Install dev dependencies
+npm install
 
-By using HypeScan, you agree to use it responsibly.
+# Run tests
+npm test
+
+# Create production build
+npm run build
 ```
 
-### **Legal**
-- HypeScan is for **educational and authorized testing** only
-- Always obtain **written permission** before scanning networks
-- Respect privacy and **follow applicable laws**
+### **Contributing Guidelines**
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+**Areas needing contribution:**
+- Additional port detection modules
+- Web interface/dashboard
+- Performance optimizations
+- Documentation improvements
 
 ---
 
-## 🤝 **Contributing**
+## ⚖️ **Ethical Use & Legal Disclaimer**
 
-We love contributions! Here's how you can help:
+### **Important Notice**
+```bash
+⚖️  ETHICAL GUIDELINES FOR HYPERSCANNER:
 
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
+1. ⚠️  ONLY SCAN NETWORKS YOU OWN OR HAVE EXPLICIT PERMISSION
+2. 🔒 Do not attempt unauthorized access to devices
+3. 📝 This tool is for NETWORK DISCOVERY and EDUCATIONAL purposes only
+4. 🚫 Never use for malicious activities
+5. 📚 Respect privacy and follow all applicable laws
 
-### **Areas for Contribution**
-- New detection modules
-- Performance improvements
-- Additional output formats
-- GUI/web interface
-- Documentation and examples
+By using HypeScanner, you agree to use it responsibly and legally.
+```
+
+### **Legal Compliance**
+- HypeScanner is for **authorized security testing** only
+- Always obtain **written permission** before scanning
+- Comply with **Computer Fraud and Abuse Act** and local laws
+- Respect **privacy policies** and terms of service
+
+---
+
+## 🚨 **Troubleshooting**
+
+### **Common Issues & Solutions**
+
+```bash
+# Issue: "Command not found"
+# Solution:
+chmod +x scanner.js
+npm link
+# Or use directly:
+node scanner.js scan
+
+# Issue: Timeout errors
+# Solution: Increase timeout
+hypescanner scan -t 3000
+
+# Issue: Slow scanning
+# Solution: Adjust concurrency
+hypescanner scan -c 150
+
+# Issue: Permission denied
+# Solution: TCP ports don't need root, but try:
+sudo node scanner.js scan
+```
+
+### **Performance Optimization**
+- **LAN Networks**: Use `-t 1000` (lower timeout)
+- **WAN/VPN Networks**: Use `-t 3000` (higher timeout)
+- **Max Speed**: Use `-c 254` for maximum concurrency
+- **Selective Ports**: Only scan necessary ports with `--ports`
+
+---
+
+## 📚 **Learning Resources**
+
+### **Related Projects by @theoceanengineer**
+- [Network Toolkit](https://github.com/theoceanengineer/network-toolkit) - Additional networking tools
+- [Security Scripts](https://github.com/theoceanengineer/security-scripts) - Security-related utilities
+
+### **Recommended Reading**
+- [Nmap Network Scanning](https://nmap.org/book/) - The official guide
+- [TCP/IP Illustrated](https://en.wikipedia.org/wiki/TCP/IP_Illustrated) - Networking fundamentals
+- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) - Security testing
 
 ---
 
 ## 📄 **License**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**MIT License**
 
-```
-MIT License
-
-Copyright (c) 2024 HypeScan Contributors
+Copyright (c) 2024 Theoceanengineer (GitHub: @theoceanengineer)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -285,88 +351,88 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-```
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
-## 🌟 **Why HypeScan?**
-
-| Feature | HypeScan | Traditional Scanners |
-|---------|----------|---------------------|
-| **Visual Feedback** | ✅ Live progress, colors, emojis | ❌ Plain text |
-| **Ease of Use** | ✅ Simple commands, auto-detection | ❌ Complex flags |
-| **Speed** | ✅ Parallel processing, smart timeouts | ⚠️ Varies |
-| **Portability** | ✅ Pure Node.js, no root needed | ❌ Often needs root |
-| **Reporting** | ✅ Beautiful tables, JSON export | ⚠️ Basic output |
-
----
-
-## 🚨 **Troubleshooting**
-
-### **Common Issues**
-
-```bash
-# If "command not found"
-chmod +x scanner.js
-npm link
-
-# If dependencies fail
-rm -rf node_modules package-lock.json
-npm install
-
-# If timeout errors
-hypescan scan -t 3000  # Increase timeout
-```
-
-### **Performance Tips**
-- Use `-c 100` for faster scanning on good connections
-- Use `-t 1000` for LAN networks (faster timeouts)
-- Limit port scanning with specific ports when needed
-
----
-
-## 📚 **Learning Resources**
-
-### **Related Tools**
-- [Nmap](https://nmap.org/) - Industry standard scanner
-- [Masscan](https://github.com/robertdavidgraham/masscan) - Mass IP scanner
-- [Netcat](https://nmap.org/ncat/) - Network utility
-
-### **Networking Concepts**
-- [TCP/IP Basics](https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/)
-- [Port Scanning Techniques](https://nmap.org/book/man-port-scanning-techniques.html)
-- [Network Security](https://owasp.org/www-project-top-ten/)
-
----
+## 🌐 **Connect & Support**
 
 <div align="center">
 
-## **Ready to Scan?**
+### **Created with ❤️ by @theoceanengineer**
 
-```bash
-# Start your network exploration journey
-git clone https://github.com/yourusername/hypescan.git
-cd hypescan
-npm install
-node scanner.js --help
-```
+[![GitHub Follow](https://img.shields.io/github/followers/theoceanengineer?style=social&label=Follow%20@theoceanengineer)](https://github.com/theoceanengineer)
+[![Twitter Follow](https://img.shields.io/twitter/follow/theoceaneng?style=social)](https://twitter.com/theoceaneng)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20-green?style=for-the-badge&logo=buymeacoffee)](https://buymeacoffee.com/theoceanengineer)
 
-**⭐ Star this repo if you find it useful!**
+**⭐ Star this repo if you find it useful!**  
+**🐛 Report issues on GitHub**  
+**🔄 Submit pull requests to improve**
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/yourhandle?style=social)](https://twitter.com/yourhandle)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/hypescan)](https://github.com/yourusername/hypescan/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/hypescan/pulls)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/theoceanengineer/hypescanner)
+[![NPM Package](https://img.shields.io/badge/NPM-Package-red?style=for-the-badge&logo=npm)](https://npmjs.com/package/hypescanner)
 
-**Made with ❤️ and ⚡ by the HypeScan Community**
+**Happy Scanning! ⚡🔍**
 
 </div>
 
 ---
 
-## 🔗 **Connect**
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-- **Website**: [hypescan.dev](https://hypescan.dev) *(example)*
-- **Discord**: [Join our community](https://discord.gg/yourinvite) *(example)*
+## 🎯 **Use Cases**
 
-**Happy Scanning! 🚀**
+### **For Developers**
+- Test your Flask/Django apps on different ports
+- Find available IPs in development networks
+- Monitor local network activity
+- Debug network connectivity issues
+
+### **For Network Admins**
+- Quick network inventory
+- Detect unauthorized devices
+- Service discovery and mapping
+- Security assessment
+
+### **For Security Researchers**
+- Port scanning for vulnerability assessment
+- Network reconnaissance
+- Service identification
+- Security auditing
+
+### **For Students & Learners**
+- Learn networking concepts hands-on
+- Understand port scanning techniques
+- Practice ethical hacking skills
+- Network analysis and documentation
+
+---
+
+## 📈 **Roadmap**
+
+### **Planned Features**
+- [ ] **Web Dashboard** - Browser-based interface
+- [ ] **API Mode** - JSON/REST API for integration
+- [ ] **More Protocols** - UDP, ICMP scanning
+- [ ] **OS Detection** - Operating system fingerprinting
+- [ ] **Vulnerability Checks** - Basic CVE detection
+- [ ] **Network Mapping** - Visual topology generation
+- [ ] **Export Formats** - CSV, XML, PDF reports
+- [ ] **Mobile App** - Companion app for iOS/Android
+
+### **Current Version: v2.0.0**
+- ✅ TCP-based scanning
+- ✅ Visual feedback system
+- ✅ Cafe/developer mode
+- ✅ Multi-network scanning
+- ✅ JSON export capability
+- ✅ No root permissions needed
+
+---
+
+**Thank you for checking out HypeScanner! Your feedback and contributions make this project better every day.** 🚀
