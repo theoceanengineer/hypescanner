@@ -43,16 +43,6 @@ chmod +x scanner.js
 node scanner.js scan --network 192.168.1.0/24
 ```
 
-### **One-Liner Installation**
-```bash
-# Direct run without cloning
-npx hypescanner@latest scan --network 192.168.1.0/24
-
-# Or install globally
-npm install -g hypescanner
-hypescanner --help
-```
-
 ---
 
 ## ✨ **Why Choose HypeScanner?**
