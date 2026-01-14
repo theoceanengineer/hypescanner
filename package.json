@@ -1,0 +1,30 @@
+{
+  "name": "hypescan",
+  "version": "1.0.0",
+  "description": "⚡ Hyper-Fast Network Scanner with Visual Feedback",
+  "main": "scanner.js",
+  "bin": {
+    "hypescan": "./scanner.js"
+  },
+  "scripts": {
+    "start": "node scanner.js",
+    "scan": "node scanner.js scan",
+    "multi": "node scanner.js multi",
+    "portscan": "node scanner.js portscan"
+  },
+  "dependencies": {
+    "async": "^3.2.6",
+    "chalk": "^4.1.2",
+    "cli-table": "^0.3.11",
+    "commander": "^9.5.0",
+    "ip": "^2.0.1"
+  },
+  "keywords": [
+    "network",
+    "scanner",
+    "security",
+    "hypescan"
+  ],
+  "author": "",
+  "license": "MIT"
+}
