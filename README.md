@@ -20,20 +20,6 @@
 
 ## 🌊 **Welcome to HypeScanner by @theoceanengineer**
 
-```javascript
-console.log(chalk.hex('#FF6B6B')('      ___           ___           ___           ___           ___           ___           ___           ___     '));
-console.log(chalk.hex('#FF9F43')('     /\\__\\         |\\__\\         /\\  \\         /\\  \\         /\\  \\         /\\  \\         /\\  \\         /\\__\\    '));
-console.log(chalk.hex('#FECA57')('    /:/  /         |:|  |       /::\\  \\       /::\\  \\       /::\\  \\       /::\\  \\       /::\\  \\       /::|  |   '));
-console.log(chalk.hex('#FF9FF3')('   /:/__/          |:|  |      /:/\\:\\  \\     /:/\\:\\  \\     /:/\\ \\  \\     /:/\\:\\  \\     /:/\\:\\  \\     /:|:|  |   '));
-console.log(chalk.hex('#54A0FF')('  /::\\  \\ ___      |:|__|__   /::\\~\\:\\  \\   /::\\~\\:\\  \\   _\\:\\~\\ \\  \\   /:/  \\:\\  \\   /::\\~\\:\\  \\   /:/|:|  |__ '));
-console.log(chalk.hex('#5F27CD')(' /:/\\:\\  /\\__\\     /::::\\__\\ /:/\\:\\ \\:\\__\\ /:/\\:\\ \\:\\__\\ /\\ \\:\\ \\ \\__\\ /:/__/ \\:\\__\\ /:/\\:\\ \\:\\__\\ /:/ |:| /\\__\\'));
-console.log(chalk.hex('#00D2D3')(' \\/__\\:\\/:/  /    /:/~~/~    \\/__\\:\\/:/  / \\:\\~\\:\\ \\/__/ \\:\\ \\:\\ \\/__/ \\:\\  \\  \\/__/ \\/__\\:\\/:/  / \\/__|:|/:/  /'));
-console.log(chalk.hex('#1DD1A1')('      \\::/  /    /:/  /           \\::/  /   \\:\\ \\:\\__\\    \\:\\ \\:\\__\\    \\:\\  \\            \\::/  /      |:/:/  / '));
-console.log(chalk.hex('#96CEB4')('      /:/  /     \\/__/             \\/__/     \\:\\ \\/__/     \\:\\/:/  /     \\:\\  \\           /:/  /       |::/  /  '));
-console.log(chalk.hex('#4ECDC4')('     /:/  /                                   \\:\\__\\        \\::/  /       \\:\\__\\         /:/  /        /:/  /   '));
-console.log(chalk.hex('#576574')('     \\/__/                                     \\/__/         \\/__/         \\/__/         \\/__/         \\/__/    '));
-```
-
 **HypeScanner** is a powerful, visually stunning network scanner built with Node.js that transforms the boring task of network scanning into an engaging, informative experience. Created by **@theoceanengineer**, this tool combines professional-grade scanning capabilities with beautiful terminal visuals.
 
 ---
